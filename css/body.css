@@ -1,11 +1,12 @@
 body {
   width: 1440px;
-  height: 3557px;
-  background-image: url(../img/back.svg);
+  height: 2999px;
+  background-image: url(../img/back2.svg);
   background-repeat: no-repeat;
   background-size: cover;
   overflow-y: scroll;
   overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
 }
 
 * {
