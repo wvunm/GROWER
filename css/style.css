@@ -1,5 +1,6 @@
 @import 'reset.css';
 
 
-@import 'body.css';
+@import 'layout.css';
+@import 'navigation.css';
 @import 'content.css';

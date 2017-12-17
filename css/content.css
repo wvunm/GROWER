@@ -1,41 +1,40 @@
-.menubarw {
-  width: 100%;
-  position: fixed;
-}
-
-.menubar {
-  height: 70px;
-  margin: 0 auto;
-  background-color: #3CEB2D;
-  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.25);
-}
-
-.logo {
+.one {
   position: absolute;
-  right: 40px;
-  top: 2px;
-  width: 65px;
-  height: 65px;
-  background-image: url(../img/logo.svg);
+  top: 70px;
+  width: 1440px;
+  height: 981px;
 }
 
-.logo:hover {
+.apple {
+  position: absolute;
+  width: 271px;
+  height: 95px;
+  background-image: url(../img/apple.png);
+  background-size: cover;
+  bottom: 92px;
+  left: 153px;
+}
+
+.android {
+  position: absolute;
+  width: 217px;
+  height: 71px;
+  background-image: url(../img/android.png);
+  background-size: cover;
+  bottom: 97px;
+  left: 431px;
+}
+
+.apple:hover, .android:hover {
   cursor: pointer;
 }
 
-.menu {
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-  justify-content: flex-start;
+.apple:active {
+  width: 269px;
+  height: 93px;
 }
 
-.home, .faq, .ask, .space {
-  padding: 20px;
-  color: white;
-  font-size: 30px;
-}
-.home:hover, .faq:hover, .ask:hover, .space:hover {
-  cursor: pointer;
-  background-color: #0BE507;
+.android:active {
+  width: 215px;
+  height: 69px;
 }
