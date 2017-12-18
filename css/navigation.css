@@ -22,6 +22,8 @@
   width: 65px;
   height: 65px;
   background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .logo:hover {
